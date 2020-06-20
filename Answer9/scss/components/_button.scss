@@ -1,0 +1,85 @@
+/* -----------------------------------
+** Buttons
+-------------------------------------*/
+.btn{
+  border-radius:0;
+  min-width: 120px;
+  font-weight: 700;
+  font-family: $font-secondary;
+  transition: .3s;
+  background:  $primary;
+  height: 42px;
+  padding-top: 0;
+  padding-bottom: 0;
+  border-radius: 10px;
+  line-height: 42px;
+  color: $white-color;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  &:hover,&:focus{
+    color: $white-color;
+  }
+  &__arrow-icon{
+    padding-left: 5px;
+  }
+  &--black{
+    border:1px solid $black-color;
+    color: $black-color;
+    &:hover{
+      background: $primary;
+      color: $white-color;
+      border-color: $primary;
+    }
+  }
+  &--primary{
+    border:1px solid $primary;
+    color: $primary;
+    &:hover{
+      background: $primary;
+      color: $white-color;
+      border-color: $primary;
+    }
+  }
+}
+.btn-link{
+  text-decoration: underline;
+  line-height: 1.4;
+  color: $base-color;
+  background: transparent;
+  &:hover{
+    color: $primary;
+  }
+}
+.btn-lg{
+  min-width: 179px;
+  line-height: 46px;
+  height: 46px;
+  font-size: 17px;
+}
+
+
+.btn-seconday{
+  background: #646464;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------
+** End Buttons
+-------------------------------------*/

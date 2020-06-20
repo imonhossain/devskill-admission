@@ -1,0 +1,13 @@
+D:\devTools\project\Code\Devskill\Answer2\obj\Debug\netcoreapp3.1\Answer2.csprojAssemblyReference.cache
+D:\devTools\project\Code\Devskill\Answer2\obj\Debug\netcoreapp3.1\Answer2.AssemblyInfoInputs.cache
+D:\devTools\project\Code\Devskill\Answer2\obj\Debug\netcoreapp3.1\Answer2.AssemblyInfo.cs
+D:\devTools\project\Code\Devskill\Answer2\obj\Debug\netcoreapp3.1\Answer2.csproj.CoreCompileInputs.cache
+D:\devTools\project\Code\Devskill\Answer2\bin\Debug\netcoreapp3.1\Answer2.exe
+D:\devTools\project\Code\Devskill\Answer2\bin\Debug\netcoreapp3.1\Answer2.deps.json
+D:\devTools\project\Code\Devskill\Answer2\bin\Debug\netcoreapp3.1\Answer2.runtimeconfig.json
+D:\devTools\project\Code\Devskill\Answer2\bin\Debug\netcoreapp3.1\Answer2.runtimeconfig.dev.json
+D:\devTools\project\Code\Devskill\Answer2\bin\Debug\netcoreapp3.1\Answer2.dll
+D:\devTools\project\Code\Devskill\Answer2\bin\Debug\netcoreapp3.1\Answer2.pdb
+D:\devTools\project\Code\Devskill\Answer2\obj\Debug\netcoreapp3.1\Answer2.dll
+D:\devTools\project\Code\Devskill\Answer2\obj\Debug\netcoreapp3.1\Answer2.pdb
+D:\devTools\project\Code\Devskill\Answer2\obj\Debug\netcoreapp3.1\Answer2.genruntimeconfig.cache

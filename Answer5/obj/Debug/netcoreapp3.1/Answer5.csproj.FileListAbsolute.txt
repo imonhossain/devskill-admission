@@ -1,0 +1,4 @@
+D:\devTools\project\Code\Devskill\Answer5\obj\Debug\netcoreapp3.1\Answer5.csprojAssemblyReference.cache
+D:\devTools\project\Code\Devskill\Answer5\obj\Debug\netcoreapp3.1\Answer5.AssemblyInfoInputs.cache
+D:\devTools\project\Code\Devskill\Answer5\obj\Debug\netcoreapp3.1\Answer5.AssemblyInfo.cs
+D:\devTools\project\Code\Devskill\Answer5\obj\Debug\netcoreapp3.1\Answer5.csproj.CoreCompileInputs.cache

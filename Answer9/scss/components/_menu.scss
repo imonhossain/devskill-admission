@@ -1,0 +1,242 @@
+/* -----------------------------------
+** Menu
+-------------------------------------*/
+#easy-menu{
+  display: none;
+}
+@media (min-width: 991px) {
+  #easy-menu{
+    display: block;
+  }
+  #easy-menu > ul {
+      //margin-left: -13px;
+      float: right;
+  }
+
+  #easy-menu > ul > li {
+    margin: 0;
+    position: relative;
+  }
+
+  #easy-menu > ul > li > a {
+    padding: 20px 15px 10px 15px;
+      font-size: 17px;
+      position: relative;
+      font-weight: 400;
+      margin-top: 3px;
+      display: block;
+      color: $white-color;
+      &:hover,&:focus{
+        color: $primary;
+      }
+  }
+  #easy-menu > ul > li:hover >a{
+
+       &:before{
+         width:100%;
+       }
+  }
+  #easy-menu > ul > li > a:hover{
+
+  }
+  #easy-menu,
+  #easy-menu ul,
+  #easy-menu ul li,
+  #easy-menu ul li a {
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+
+  }
+
+  #easy-menu > ul > li {
+    float: left;
+  }
+
+  #easy-menu ul ul {
+    position: absolute;
+    left: -9999px;
+    z-index: 6;
+    width:213px;
+    padding: 20px 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    // margin-top: 10px;
+    transition-property: margin-top;
+    transition-duration: .2s;
+    transition-timing-function: ease-in-out;
+  }
+
+  #easy-menu ul ul li {
+    transition: all .25s ease;
+  }
+
+  #easy-menu li:hover > ul {
+    left: auto;
+    margin-top: 0;
+  }
+
+  #easy-menu ul ul ul {
+    margin-left: 100%;
+    transition: .3s;
+  }
+
+  #easy-menu ul ul li:last-child {
+    border-bottom: 0;
+  }
+
+  #easy-menu ul ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    position: relative;
+    font-size: 15px;
+    text-transform: none;
+    &:before{
+        position: absolute;
+        left:0;
+        bottom:2px;
+        height: 1px;
+        background: $primary;
+        width:0%;
+        content: '';
+        transition: .3s;
+    }
+    &:hover{
+        color: $primary !important;
+        &:before{
+            width: 105%;
+        }
+    }
+  }
+  #easy-menu ul ul ul{
+      margin-top: -41px !important;
+  }
+}
+
+
+
+.mobile-background-nav {
+    position: fixed;
+    top: 0;
+    display: none;
+    /* left: -250px; */
+    width: 185px;
+    transition: .3s;
+    padding: 10px 0;
+    z-index: 999;
+    background: #272732;
+    /* height: 100vh; */
+    overflow: auto;
+    right: -185px;
+    top:70px;
+    &.in{
+      right: 0;
+    //  left: auto;
+
+    }
+}
+ @media (max-width: 991px) {
+   .mobile-background-nav {
+     display: block;
+   }
+ }
+ @media (max-width: 991px){
+   body {
+       overflow-x: hidden;
+       overflow-y: auto;
+   }
+ }
+
+ .mobile-background-nav .mobile-inner {
+   overflow: auto;
+   position: relative;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+
+ .mobile-background-nav .mobile-inner .mobile-menu-close {
+   text-align: right;
+   display: block;
+   padding-top: 15px;
+   padding-bottom: 15px;
+ }
+
+ .mobile-background-nav .mobile-inner .mobile-menu-close i {
+   cursor: pointer;
+   padding: 5px;
+   font-size: 17px;
+   color: #fff;
+ }
+
+ .mobile-background-nav ul {
+   list-style: none;
+   padding: 0;
+ }
+
+ .mobile-background-nav ul .dropdown {
+   overflow: hidden;
+   display: none;
+ }
+
+ .mobile-background-nav ul .dropdown.menu-show {
+   /*display: block;*/
+ }
+
+ .menu-accordion > li {
+   border-bottom: 1px solid #2d2c31;
+ }
+
+ .menu-accordion .dropdown > li {
+   border-top: 1px solid #2d2c31;
+   padding-left: 15px;
+ }
+
+ .mobile-background-nav ul li a {
+   width: 100%;
+   display: block;
+   color: #fefefe;
+   padding: .75em;
+   border-radius: 0.15em;
+   transition: background .3s ease;
+   text-transform: uppercase;
+ }
+
+ .mobile-background-nav ul li a > i {
+   float: right;
+ }
+.menu-accordion{
+  padding-top: 15px !important;
+}
+
+
+.mobile-background-nav ul{
+  text-align: right;
+  li{
+    a{
+      padding-right: 20px;
+    }
+  }
+}
+
+
+@media (min-width: 992px) {
+  .mobile-background-nav{
+    display: none !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------
+** End Menu
+-------------------------------------*/

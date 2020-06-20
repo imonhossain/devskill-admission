@@ -1,0 +1,68 @@
+//
+// Variables
+// --------------------------------------------------
+
+//== Sizes
+//
+//## Default font size 14px
+$font-size-base:          14px !default;
+$font-size-small:         ceil(($font-size-base * 0.7)) !default; // ~10px
+$font-size-medium:        ceil(($font-size-base * 0.72)) !default; // ~11px
+
+$font-size-large:         ceil(($font-size-base * 0.82)) !default; // ~12px
+$font-size-xlarge:        ceil(($font-size-base * 0.92)) !default; // ~13px
+
+//== Weights
+$font-weight-regular:	  400 !default;
+
+$font-weight-base:		  $font-weight-regular;
+
+$font-family-base:		  'Roboto', sans-serif;
+
+$line-height-base:        1.5 !default; // 18/12
+
+$font-secondary:               'Roboto', sans-serif;
+
+/*fixed setting padding and margin<<<-----*/
+/*----------------------------------------*/
+$offset-base:			15px !default;
+
+
+
+
+// Color
+$primary:               #61B138;
+$secondary:             #FFC400;
+
+$base-color:				    #808791 !default;
+$white-color:				    #ffffff !default;
+$white-semi:				    #E3E3E3 !default;
+$black-color:				    #292929 !default;
+$black-dip-color:				#201B25 !default;
+$ash:                   rgba(99, 96, 97, 0.8);
+$black-semi:            #363437;
+// $green:#61B138;
+
+
+
+$blue: #4B72AA;
+$orange: #FBBC05;
+
+
+$border:                #dee2e6;
+$border-dark:           #414449;
+
+$ash-white:             #e9ebee;
+$mute:                  #807C7C;
+
+
+
+
+
+
+
+
+
+
+
+//

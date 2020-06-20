@@ -1,0 +1,155 @@
+/* -----------------------------------
+** Footer
+-------------------------------------*/
+.footer{
+  margin-top: 10px;
+}
+.footer-top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 30px;
+  border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.social-icon{
+  li{
+    display: inline-block;
+  }
+}
+.social-icon--large{
+  li{
+    &:not(:last-child){
+      padding-right: 10px;
+    }
+    a{
+      font-size: 18px;
+    }
+  }
+}
+.footer-medium{
+  padding-top: 50px;
+  padding-bottom: 40px;
+  ul{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    text-align: center;
+    li{
+      display: inline-block;
+      width: 49.4%;
+      margin-bottom: 15px;
+      a{
+        color: $white-color;
+        opacity: .8;
+      }
+    }
+  }
+}
+.footer-address-wrapper{
+  padding: 40px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: $black-semi;
+  width: 100%;
+}
+.footer-address{
+  text-align: center;
+  margin-bottom: 30px;
+  &__title{
+    opacity: 0.8;
+  }
+  address{
+    font-style: normal;
+    opacity: 0.8;
+  }
+}
+.footer{
+  background: $black-dip-color;
+}
+.copyright-area{
+  background: #000000;
+}
+
+.footer-copyright{
+  display: flex;
+  align-content: center;
+  font-size: 12px;
+  padding-top: 15px;
+  //padding-bottom: 5px;
+  &__text{
+    margin-bottom: 15px;
+    display: inline-block;
+  }
+  &__menu{
+    padding-left: 4px;
+    list-style: none;
+    li{
+      display: inline-block;
+      position: relative;
+      a{
+        color: $white-color;
+      }
+      &:before{
+        content: '|';
+        margin-right: 7px;
+        margin-left: 4px;
+      }
+    }
+  }
+}
+.footer-medium{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@include breakpoint(md){
+  .main-footer{
+    display: flex;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+      width: 1170px;
+      margin-left: auto;
+      margin-right: auto;
+    .footer-medium{
+      width: 66.66666%
+    }
+    .footer-address-wrapper{
+      width: 33.33333%;
+      background: transparent;
+      display: block;
+    }
+    .footer-medium ul{
+      width: 100%;
+      max-width: 100%;
+      padding-left: 0;
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -----------------------------------
+** End Footer
+-------------------------------------*/

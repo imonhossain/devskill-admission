@@ -1,0 +1,84 @@
+//== Variables
+/*----------------------------------------*/
+$base-color:				    #000000 !default;
+$white-color:				    #ffffff !default;
+$black-color:				    #000000 !default;
+
+
+$border:                #dee2e6;
+$border-dark:           #414449;
+
+$ash:                   #ebebeb;
+$ash-white:             #e9ebee;
+$mute:                  #585858;
+
+
+$primary:               #FBBC05;
+$secondary:             #FFC400;
+
+
+
+
+//== Common Color
+/*----------------------------------------*/
+body {
+  color: $base-color;
+}
+a{
+  color: $base-color;
+  &:hover,&:focus{
+    color: $primary;
+  }
+}
+.ash-bg{
+  background: $ash;
+}
+
+.black-text{
+    color: $black-color;;
+}
+
+
+hr{
+    border-color: $border;
+}
+//== Bootstrap Color
+/*----------------------------------------*/
+.text-mute,.text-lighter{
+    color: $mute;
+}
+
+.text-primary{
+    color:$primary !important;
+}
+.text-secondary{
+  color:$secondary !important;
+}
+a.text-primary{
+  &:hover{
+    color:$primary !important;
+  }
+}
+a{
+  &:hover{
+    color:$primary;
+  }
+}
+.bg-primary{
+  background: $primary !important;
+}
+
+.badge-primary{
+	background: $primary;
+}
+.list-group-item{
+	border: 1px solid $border;
+}
+
+.navbar-nav .nav-item.active .nav-link{
+  background: $primary;
+  color: $white-color;
+}
+.hr-primary-border{
+	border-color: $primary
+}

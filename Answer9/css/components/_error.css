@@ -1,0 +1,21 @@
+/* -----------------------------------
+** Error
+-------------------------------------*/
+.error-page-content {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.error-page-title {
+  font-size: 300px;
+  line-height: .7;
+  color: #FFBB41;
+}
+
+/* -----------------------------------
+** End Error
+-------------------------------------*/
