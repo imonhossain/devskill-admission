@@ -1,0 +1,13 @@
+D:\devTools\project\Code\Devskill\Answer8\bin\Debug\netcoreapp3.1\Answer8.exe
+D:\devTools\project\Code\Devskill\Answer8\bin\Debug\netcoreapp3.1\Answer8.deps.json
+D:\devTools\project\Code\Devskill\Answer8\bin\Debug\netcoreapp3.1\Answer8.runtimeconfig.json
+D:\devTools\project\Code\Devskill\Answer8\bin\Debug\netcoreapp3.1\Answer8.runtimeconfig.dev.json
+D:\devTools\project\Code\Devskill\Answer8\bin\Debug\netcoreapp3.1\Answer8.dll
+D:\devTools\project\Code\Devskill\Answer8\bin\Debug\netcoreapp3.1\Answer8.pdb
+D:\devTools\project\Code\Devskill\Answer8\obj\Debug\netcoreapp3.1\Answer8.csprojAssemblyReference.cache
+D:\devTools\project\Code\Devskill\Answer8\obj\Debug\netcoreapp3.1\Answer8.AssemblyInfoInputs.cache
+D:\devTools\project\Code\Devskill\Answer8\obj\Debug\netcoreapp3.1\Answer8.AssemblyInfo.cs
+D:\devTools\project\Code\Devskill\Answer8\obj\Debug\netcoreapp3.1\Answer8.csproj.CoreCompileInputs.cache
+D:\devTools\project\Code\Devskill\Answer8\obj\Debug\netcoreapp3.1\Answer8.dll
+D:\devTools\project\Code\Devskill\Answer8\obj\Debug\netcoreapp3.1\Answer8.pdb
+D:\devTools\project\Code\Devskill\Answer8\obj\Debug\netcoreapp3.1\Answer8.genruntimeconfig.cache
