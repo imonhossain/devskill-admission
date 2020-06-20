@@ -1,0 +1,13 @@
+D:\devTools\project\Code\Devskill\Answer6\bin\Debug\netcoreapp3.1\Answer6.exe
+D:\devTools\project\Code\Devskill\Answer6\bin\Debug\netcoreapp3.1\Answer6.deps.json
+D:\devTools\project\Code\Devskill\Answer6\bin\Debug\netcoreapp3.1\Answer6.runtimeconfig.json
+D:\devTools\project\Code\Devskill\Answer6\bin\Debug\netcoreapp3.1\Answer6.runtimeconfig.dev.json
+D:\devTools\project\Code\Devskill\Answer6\bin\Debug\netcoreapp3.1\Answer6.dll
+D:\devTools\project\Code\Devskill\Answer6\bin\Debug\netcoreapp3.1\Answer6.pdb
+D:\devTools\project\Code\Devskill\Answer6\obj\Debug\netcoreapp3.1\Answer6.csprojAssemblyReference.cache
+D:\devTools\project\Code\Devskill\Answer6\obj\Debug\netcoreapp3.1\Answer6.AssemblyInfoInputs.cache
+D:\devTools\project\Code\Devskill\Answer6\obj\Debug\netcoreapp3.1\Answer6.AssemblyInfo.cs
+D:\devTools\project\Code\Devskill\Answer6\obj\Debug\netcoreapp3.1\Answer6.csproj.CoreCompileInputs.cache
+D:\devTools\project\Code\Devskill\Answer6\obj\Debug\netcoreapp3.1\Answer6.dll
+D:\devTools\project\Code\Devskill\Answer6\obj\Debug\netcoreapp3.1\Answer6.pdb
+D:\devTools\project\Code\Devskill\Answer6\obj\Debug\netcoreapp3.1\Answer6.genruntimeconfig.cache
